@@ -31,7 +31,7 @@ def write():
 
     if len(df) == 0:
         df = pd.read_csv(
-            "https://raw.githubusercontent.com/rolando-trevino/ml_ds_gallery/main/data/gallery/data_visualization/covid_19_mx/per_state.csv"
+            "https://raw.githubusercontent.com/rolando-trevino/COVID_MX/main/data/covid_19_mx/per_state.csv"
         )
         # df = pd.read_csv("data/gallery/data_visualization/covid_19_mx/per_state.csv")
         df["state"] = df["state"].astype(int)
